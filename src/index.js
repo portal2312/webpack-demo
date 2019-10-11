@@ -13,4 +13,5 @@ function component() {
   return element;
 }
 
+console.log(_.join(['index.js', 'module', 'loaded!', 'Removed plugins'], ' '));
 document.body.appendChild(component());
