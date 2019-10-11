@@ -1,8 +1,15 @@
+# File
 *.swp
+*.bak
+
+# node.js
 node_modules/
 
-# dist
+# dist for webpack
 dist/*.png
 dist/*.woff
 dist/*.js
+
+# Pycharm
+.idea/
 
